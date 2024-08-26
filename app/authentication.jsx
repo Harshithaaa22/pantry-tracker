@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { auth } from '@/firebase'; // Adjust path as needed
-import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth';
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from '../firebase/auth';
 import { Box, TextField, Button, Typography, colors } from '@mui/material';
 
 
